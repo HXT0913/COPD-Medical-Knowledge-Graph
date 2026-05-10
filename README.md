@@ -29,7 +29,7 @@ COPD-Medical-Knowledge-Graph/
 ├── 3_llm_extract.ipynb         # 步骤 3：基于大模型的知识三元组抽取
 ├── 4_build_graph.ipynb         # 步骤 4：知识图谱构建与可视化
 ├── images/                      # 结果截图（图谱可视化、统计图表）
-│   └── graph_result.png        # 知识图谱示例图
+│   └── ZSTP.png        # 知识图谱示例图
 └── README.md                    # 项目说明文档
 ```
 
@@ -55,7 +55,7 @@ pip install pandas numpy torch tqdm spacy scispacy networkx sentence-transformer
 4. **4_build_graph.ipynb**：构建知识图谱并生成交互式可视化页面
 
 ### 4. 可视化结果
-运行完所有代码后，就可以获得与graph_result.png相似的知识图谱了
+运行完所有代码后，就可以获得与ZSTP.png相似的知识图谱了
 
 ---
 
